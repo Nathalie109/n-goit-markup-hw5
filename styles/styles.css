@@ -273,6 +273,22 @@ button {
     flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
 
+.about-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background: var(--secondary-grey-color);
+    margin-bottom: 30px;
+}
+
+.about-icon {
+    width: 70px;
+    height: 70px;
+    fill: currentColor;
+}
+
 .about-title
 {
     font-weight: 700;
@@ -290,7 +306,7 @@ button {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--basic-black-color);
+    color: var(--basic-black-color); 
 }
 
 .about-icon {
@@ -322,10 +338,13 @@ button {
     flex-wrap: wrap;
     gap: var(--indent);
     --items: 3;
+    justify-content: center;
 }
 
 .gallery-list-item {
     flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+
+    position: relative;
 }
 
 .gallery-picture {
@@ -334,6 +353,22 @@ button {
     height: auto;
 }
 
+.gallery-thumb {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--basic-white-color);
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.overlay-text {
+    padding: 27px 0;
+}
 /*team*/
 
 .team {
@@ -397,7 +432,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10;
+    gap: 10px;
 
     margin-bottom: 30px;
 }
@@ -434,7 +469,7 @@ button {
 /*customers*/
 
 .customers {
-    background-color: var(--secondary-grey-color);
+    background-color: var(--basic-white-color);
     padding-bottom: 94px;
     padding-top: 94px;
 }
@@ -684,7 +719,7 @@ button {
 
 .portfolio-card:hover,
 .portfolio-card:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.6), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-title {

@@ -81,9 +81,11 @@
         <div class="container">
           <ul class="about-list">
             <li class="about-item">
-              <svg class="about-icon" width="270px" height="120px">
-                <use href="./images/sprite.svg#icon-feature1"></use>
-              </svg>
+              <div class="about-wrapper">
+                <svg class="about-icon">
+                  <use href="./images/sprite.svg#icon-antenna"></use>
+                </svg>
+              </div> 
               <h3 class="about-title">Увага до деталей</h3>
               <p class="about-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
@@ -91,9 +93,11 @@
               </p>
             </li>
             <li class="about-item">
-              <svg class="about-icon" width="270px" height="120px">
-                <use href="./images/sprite.svg#icon-feature2"></use>
-              </svg>
+              <div class="about-wrapper">
+                <svg class="about-icon">
+                  <use href="./images/sprite.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="about-title">Пунктуальнiсть</h3>
               <p class="about-text">
                 Завдання організації, особливо рамки і місце навчання кадрів
@@ -101,18 +105,22 @@
               </p>
             </li>
             <li class="about-item">
-              <svg class="about-icon" width="270px" height="120px">
-                <use href="./images/sprite.svg#icon-feature3"></use>
-              </svg>
+              <div class="about-wrapper">
+                <svg class="about-icon">
+                  <use href="./images/sprite.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="about-title">Планування</h3>
               <p class="about-text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li class="about-item">
-              <svg class="about-icon" width="270px" height="120px">
-                <use href="./images/sprite.svg#icon-feature4"></use>
-              </svg>
+              <div class="about-wrapper">
+                <svg class="about-icon">
+                  <use href="./images/sprite.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="about-title">Сучаснi технологiї</h3>
               <p class="about-text">
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -130,28 +138,44 @@
 
           <ul class="gallery-list">
             <li class="gallery-list-item">
-              <img
-                class="gallery-picture"
-                src="./images/img1.jpg"
-                alt="sample1"
-                width="370"
-              />
+              <div class="gallery-thumb">
+                <img
+                  class="gallery-picture"
+                  src="./images/img1.jpg"
+                  alt="sample1"
+                  width="370"
+                />
+                <p class="overlay-text">
+                  десктопні додатки
+                </p>
+              </div>  
+            </li>
+          
+            <li class="gallery-list-item">
+              <div class="gallery-thumb">
+                <img
+                  class="gallery-picture"
+                  src="./images/img2.jpg"
+                  alt="sample2"
+                  width="370"
+                />
+                <p class="overlay-text">
+                  мобільні додатки
+                </p>
+              </div>
             </li>
             <li class="gallery-list-item">
-              <img
-                class="gallery-picture"
-                src="./images/img2.jpg"
-                alt="sample2"
-                width="370"
-              />
-            </li>
-            <li class="gallery-list-item">
-              <img
-                class="gallery-picture"
-                src="./images/img3.jpg"
-                alt="sample3"
-                width="370"
-              />
+              <div class="gallery-thumb">
+                <img
+                  class="gallery-picture"
+                  src="./images/img3.jpg"
+                  alt="sample3"
+                  width="370"
+                />
+                <p class="overlay-text">
+                  дизайнерські рішення
+                </p>
+              </div>  
             </li>
           </ul>
         </div>
